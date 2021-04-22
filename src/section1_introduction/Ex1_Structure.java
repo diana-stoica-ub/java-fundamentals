@@ -11,7 +11,7 @@ import java.util.Random;
  * - nu poate coincide cu cuvinte cheie (eg: 'package')
  * - nu poate contine spatii si caractere speciale (exceptie "$" si "_")
  * Conventii
- * - camel case
+ * - camel case MyNewClass
  * - incepe cu litera mare
  * - substantive
  *

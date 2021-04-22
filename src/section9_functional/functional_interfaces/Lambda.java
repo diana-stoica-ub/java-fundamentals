@@ -16,9 +16,14 @@ public class Lambda {
 
         //() -> {};
 
-        //colors.forEach((color) -> {System.out.println(color)});
+       // colors.forEach((color) -> {System.out.println(color);System.out.println(color);});
 
+        //colors.stream().forEach(color -> System.out.println(color));
         colors.forEach(color -> System.out.println(color));
+
+        for (String s : colors) {
+            System.out.println(s);
+        }
 
         System.out.println("Sorted colors:");
         List<String> noPinkColors = colors

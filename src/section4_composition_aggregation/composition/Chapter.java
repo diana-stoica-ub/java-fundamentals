@@ -5,6 +5,11 @@ public class Chapter {
     private String name;
     private Page[] pages;
 
+
+    public Chapter(String name) {
+        this.name = name;
+    }
+
     public Chapter(String name, Page[] pages) {
         this.name = name;
         this.pages = pages;

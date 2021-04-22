@@ -4,6 +4,7 @@ public class Department {
 
     private String name;
     private Employee[] employees;
+    private Employee headOfDept;
 
     public Department(String name, Employee[] employees) {
         this.name = name;

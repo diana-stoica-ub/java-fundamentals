@@ -16,6 +16,8 @@ public class Cat extends Animal {
         this.isLongHaired = isLongHaired;
     }
 
+
+
     @Override
     public boolean equals(Object o) {   //overridden from Object class
         if (this == o) {

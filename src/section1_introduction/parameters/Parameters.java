@@ -16,6 +16,10 @@ public class Parameters {
     }
 
     public static void main(String[] args) {
+        int value = 10;
+        changePrimitive(value);
+        System.out.println(value);
+
         Student s = new Student("Alice", 5);
         changeReference(s);
         System.out.println(s);
@@ -23,8 +27,5 @@ public class Parameters {
         changeObject(s);
         System.out.println(s);
 
-        int value = 10;
-        changePrimitive(value);
-        System.out.println(value);
     }
 }

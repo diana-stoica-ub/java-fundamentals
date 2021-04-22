@@ -24,9 +24,10 @@ public class Ex1_Function {
 
 
     public static void convertStringToIntegerFunction() {
-        Function<String, Integer> convertToWordCount = a -> a.length();
+        Function<String, Integer> convertToWordCount = word -> word.length();
         List<String> words = Arrays.asList("The", "That", "John", "Thanks");
 
+        Integer length = convertToWordCount.apply("word");
         List<Integer> wordsCounts = words.stream().map(convertToWordCount).collect(Collectors.toList());
 
         for (int n : wordsCounts) {

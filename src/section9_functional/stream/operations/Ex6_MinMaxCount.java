@@ -27,5 +27,11 @@ public class Ex6_MinMaxCount {
         System.out.println(nullableOpt.isPresent());
 
 
+        list = Arrays.asList(1, 1, 1);
+        max = list.stream().max(Integer::compareTo);
+        if (max.isPresent()) {
+            System.out.println("Equals " + max.get());
+        }
+
     }
 }

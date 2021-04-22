@@ -8,6 +8,6 @@ public class StringBuffer_1 {
         stringBuffer.append("begins with a single step");
         System.out.println(stringBuffer);
         stringBuffer.replace(2,9, "walk");
-        System.out.println(stringBuffer);
+        System.out.println(stringBuffer.toString());
     }
 }

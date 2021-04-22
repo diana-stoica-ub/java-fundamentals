@@ -5,6 +5,9 @@ public class Student {
     private String name;
     private Integer averageGrade;
 
+    public Student() {
+    }
+
     public Student(String name, Integer averageGrade) {
         this.name = name;
         this.averageGrade = averageGrade;

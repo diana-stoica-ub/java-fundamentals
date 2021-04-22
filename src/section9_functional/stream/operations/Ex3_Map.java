@@ -6,8 +6,7 @@ import java.util.stream.Collectors;
 
 public class Ex3_Map {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         List<String> listOfStrings = Arrays.asList("1", "2", "3", "4", "5");
 
         List<Integer> listOfIntegers = listOfStrings.stream()

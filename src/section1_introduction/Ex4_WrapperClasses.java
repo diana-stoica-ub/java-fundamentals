@@ -28,7 +28,7 @@ public class Ex4_WrapperClasses {
         System.out.println(charWrapped.charValue());
 
         int intPrimitive = 10;
-        System.out.println(Integer.valueOf(intPrimitive));
+        System.out.println(Integer.valueOf("10"));
         char charPrimitive = Character.valueOf('C'); //If the conversion goes the other way, this is called unboxing.
 
         int a1 = 5;

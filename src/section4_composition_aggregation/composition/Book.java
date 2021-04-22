@@ -6,6 +6,7 @@ public class Book {
     private String author;
     private Chapter[] chapters;
 
+
     public Book(String name, String author, Chapter[] chapters) {
         this.name = name;
         this.author = author;
