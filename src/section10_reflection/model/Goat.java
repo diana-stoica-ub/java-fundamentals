@@ -36,4 +36,11 @@ public class Goat extends Animal implements Locomotion {
     public String eats() {
         return "grass";
     }
+
+    @Override
+    public String toString() {
+        return "Goat{" +
+                "colour='" + colour + '\'' +
+                '}';
+    }
 }
